@@ -7,7 +7,6 @@ setup: ## setup required things
 	python3 -m pip install -U -r requirements.txt
 	python3 -m pip install -U -r requirements-dev.txt
 	pre-commit install
-	pre-commit install-hooks
 
 puml-svg: ## render plantuml diagrams as svg
 	cd docs/
